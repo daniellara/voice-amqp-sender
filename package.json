@@ -4,7 +4,8 @@
   "description": "Catch your voice with SpeechRecognition API and send it via amqp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/daniellara/voice-amqp-sender/issues"
   },
-  "homepage": "https://github.com/daniellara/voice-amqp-sender#readme"
+  "homepage": "https://github.com/daniellara/voice-amqp-sender#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
 }
