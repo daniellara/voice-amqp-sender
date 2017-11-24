@@ -1,0 +1,25 @@
+{
+  "name": "voice-amqp-sender",
+  "version": "1.0.0",
+  "description": "Catch your voice with SpeechRecognition API and send it via amqp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellara/voice-amqp-sender.git"
+  },
+  "keywords": [
+    "SpeechRecognition",
+    "Socket.io",
+    "AMQP",
+    "IoT"
+  ],
+  "author": "Daniel Lara <daniel.lara.diezma@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniellara/voice-amqp-sender/issues"
+  },
+  "homepage": "https://github.com/daniellara/voice-amqp-sender#readme"
+}
