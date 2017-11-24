@@ -1,3 +1,5 @@
+const socket = io();
+
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 recognition.lang = 'es-ES';
@@ -9,6 +11,7 @@ recognition.onresult = (e) => {
   let text = e.results[last][0].transcript;
 
   console.log('Texto: ', text);
+  socket.emit('chat message', text);
 };
 
 recognition.onend = () => {
